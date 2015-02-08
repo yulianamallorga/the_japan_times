@@ -1,0 +1,85 @@
+*, *:before, *:after{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box; 
+}
+
+.top-menu{
+	background-color: black;	
+}
+
+.top-menu ul li{
+	display: inline-block;
+	border-left: solid 1px #ffffff; 
+}
+ 
+.top-menu ul li a{
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 12px;
+	font-family: Arial, serif;
+	display: block;
+	padding: 0px 17px;
+}
+
+.top-menu ul li a:hover{
+	color: #ff5c1a;
+}
+
+.wrapper-banner{
+	border-bottom: solid 2px #fcfcfc;
+}
+
+.wrapper-banner .banner{
+	width: 728px;
+	height: 90px;
+	margin: 0 auto; 
+	background-color: rgb(197, 235, 245);
+}
+
+.logo{
+	width: 300px;
+	height: 46px;
+	margin: 0 auto;
+	margin-top: 10px
+}
+
+.logo a{
+	display: block;
+	width: 300px;
+	height: 46px;
+}
+
+.logo a img{
+	display: block;
+	width: 100%;
+}
+
+.sections{
+	background-color: #efefef;
+}
+
+.sections ul li{
+	border-left: solid 1px #ffffff;
+	display: inline-block; 
+	border-bottom: solid 3px #09c;
+}
+
+.sections ul li a{
+	color: black;
+	font-size: 16px;
+	font-weight: bold;
+	font-family: Arial, sans-serif;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	padding: 14px 20px;
+}
+
+.sections ul li:hover{
+	border-bottom: solid 3px #ff5c1a;
+}
+
+.sections ul li:hover a{
+	color: #ff5c1a; 
+}
