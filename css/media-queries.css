@@ -1,0 +1,42 @@
+/* Mobile */
+
+@media only screen and (max-width: 750px){
+
+
+	header .top-menu{
+		display: none;
+	}
+
+	header .sections ul.menu-mobile{
+		display: block;
+	}
+
+	header .sections ul.menu-desktop{
+		display: none;
+	}
+
+	header .main-wrapper-header .main-menu-top{ 
+		display: block;
+	}
+
+	header .main-wrapper-header .social-links{
+		display: none;
+	}
+
+	header .main-wrapper-header .wrapper-logo{
+		width: 100%;
+		padding: 5px 0px;
+		float: none; 
+		margin: 10px 0;
+	}
+
+	header .main-wrapper-header .main-menu{
+		display: none;
+	}
+
+	header .main-wrapper-header .main-menu-bottom{
+		display: block;
+	}
+
+
+/* Mobile */
