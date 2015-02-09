@@ -55,7 +55,7 @@
  }
 
 .wrapper-banner .banner{
-	width: 728px;
+	max-width: 728px;
 	height: 90px;
 	margin: 0 auto; 
 	background-color: rgb(197, 235, 245);
@@ -353,13 +353,13 @@ footer .footer-bottom .inner-container p{
 }
 
 footer .footer-bottom  .inner-container .footer-logo{
-	width: 150px;
-	height: 23px;
 	float: right;
 }
 
 footer .footer-bottom .inner-container .footer-logo a{
 	display: block;
+	width: 150px;
+	height: 23px;
 }
 
 footer .footer-bottom .inner-container .footer-logo a img{
