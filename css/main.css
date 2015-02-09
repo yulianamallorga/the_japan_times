@@ -4,15 +4,31 @@
 	box-sizing: border-box; 
 }
 
-/* Inner-container */
+/* inner-container */
 .inner-container{
 	padding-left: 3%;
 	padding-right: 3%;
 	position: relative;
 }
-/* Inner-container */
+/* inner-container */
 
-/* Header */
+.clearfix:before,
+.clearfix:after{
+  content: '.';
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  font-size: 0;
+  line-height: 0;
+  width: 0;
+  height: 0;
+}
+
+.clearfix:after{
+  clear: both;
+}
+
+/* header */
 
 .top-menu{ background-color: black; }
 
@@ -116,6 +132,10 @@
 	
 }
 
+.main-menu ul li a:hover{
+	color: #ff5c1a;
+}
+
 .sections{
 	background-color: #efefef;
 }
@@ -147,4 +167,153 @@
 
 .sections ul li:hover a{ color: #ff5c1a; }
 
-/* Header */
+/* header */
+
+/* footer*/
+
+footer .back-to-top{
+	background-color: #09c;
+	text-align: center;
+	color: #ffffff;
+	padding: 11px 0;
+	font-size: 12px; 
+}
+
+footer .back-to-top:hover{ background-color: #ff5c1a; }
+
+footer .submenu-footer{
+	background-color: #666;
+	text-align: center;
+}
+
+footer .submenu-footer ul li{ display: inline-block; }
+
+footer .submenu-footer ul li a{
+	color: #ffffff;
+	font-family: Arial, sans-serif;
+	text-decoration: none;
+	display: block;
+	padding: 20px 5px; 
+}
+
+footer .submenu-footer ul li a:hover{ color: #ff5c1a; }
+
+
+footer .toolbar{
+	overflow: hidden;
+	background-color: rgb(239, 239, 239);
+	padding: 14px 5px; 
+ 
+}
+
+footer .toolbar .left{
+	float: left;
+}
+
+footer .toolbar .left .options a{
+	color: rgb(0, 153, 204);
+	font-size: 20px;
+	text-decoration: none;
+	padding: 20px 5px; 
+} 
+
+footer .toolbar .left .options a:hover{ color: #ff5c1a; }
+
+footer .toolbar .right{
+	float: right;
+}
+
+footer .toolbar .right .social-links ul{
+	list-style: none;
+}
+
+footer .toolbar .right .social-links ul li{
+	display: inline-block;
+	padding:5px; 
+}
+
+footer .toolbar .right .social-links ul li a{
+	text-decoration: none;
+}
+
+footer .toolbar .right .social-links ul li a i{
+	color: rgb(0, 153, 204);
+}
+
+footer .toolbar .right .social-links ul li a i:hover{ color: #ff5c1a; }
+
+footer .footer-content{
+	background: #999;
+
+}
+
+footer .footer-content .col{
+	float: left;
+}
+
+footer .footer-content .col ul{ 
+	list-style: none; 
+	padding: 20px 40px; 
+
+}
+
+footer .footer-content .col ul li a{
+	color: #ffffff;
+	font-size: 12px;
+	text-align: center;
+	text-decoration: none;
+}
+
+footer .footer-content .col ul li a:hover{ color: black; }
+
+footer .corporate-nav{
+	background-color: #333;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+footer .corporate-nav ul{
+	text-align: center;
+}
+
+footer .corporate-nav ul li{ 
+	display: inline-block;
+	padding: 10px; 
+	
+ }
+
+footer .corporate-nav ul li a{
+	color: rgb(0, 153, 204);
+	text-decoration: none;;
+	font-size: 14px;
+	font-family: Arial, sans-serif;
+}
+
+footer .corporate-nav ul li a:hover{ color: #ff5c1a; }
+
+footer .footer-bottom{ 
+	background-color: #333;
+	padding-top: 10px;
+	padding-bottom: 20px; 
+}
+footer .footer-bottom .inner-container p{
+	float: left;
+	color: #ffffff;
+}
+
+footer .footer-bottom  .inner-container .footer-logo{
+	width: 150px;
+	height: 23px;
+	float: right;
+}
+
+footer .footer-bottom .inner-container .footer-logo a{
+	display: block;
+}
+
+footer .footer-bottom .inner-container .footer-logo a img{
+	width: 100%;
+	display: block;
+}
+
+/* footer*/
