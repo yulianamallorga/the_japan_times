@@ -32,6 +32,75 @@ body{
   clear: both;
 }
 
+/* main structure */
+
+.container-page{
+	position: relative;
+}
+
+.nav-menu-left{
+	position: fixed;
+	background-color: #efefef;
+	border-right: solid 2px rgba(207, 204, 202, 0.15);
+	height: 100%;
+}
+
+.menu{
+	position: absolute;
+	left: -250px;
+	top: 0;
+	bottom: 0;
+	background-color: #efefef;
+	width: 250px;
+	border-right: solid 2px rgba(207, 204, 202, 0.15);
+}
+
+.menu-opened{
+	overflow-x:hidden;
+}
+
+.menu-opened .container-page{
+	left: 250px;
+
+}
+
+.menu .option{
+	padding-top: 40px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.menu .option ul li{
+	border-top: solid 1px #ffffff;
+	border-left: solid 3px #09c;
+	list-style: none;
+	margin-top: 1px;
+}
+
+.menu .option h3 a{
+	text-decoration: none;
+	color: black;
+	font-size: 16px;
+
+}
+
+.menu .option ul li a{
+	text-decoration: none;
+	color: black;
+	padding-left: 5px;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	display: block;
+	font-weight: normal;
+}
+.menu .option ul li:last-child{
+	border-bottom: solid 1px #ffffff;
+}
+
+
+/* main structure */
+
+
 /* header */
 
 .top-menu{ background-color: black; }
