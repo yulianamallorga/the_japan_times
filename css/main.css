@@ -4,6 +4,10 @@
 	box-sizing: border-box; 
 }
 
+body{
+	font-family: 'PTSans-Bold' !important;
+}
+
 /* inner-container */
 .inner-container{
 	padding-left: 3%;
@@ -41,7 +45,6 @@
 	text-decoration: none;
 	color: #ffffff;
 	font-size: 12px;
-	font-family: Arial, serif;
 	display: block;
 	padding: 0px 17px;
 }
@@ -129,7 +132,6 @@
 	text-decoration: none;
 	color: #09c;
 	font-size: 12px;
-	font-family: Arial, sans-serif;
 	padding: 5px 10px; 
 }
 
@@ -146,6 +148,8 @@
 	text-decoration: none;
 	color: #09c;
 	font-size: 11px; 
+	padding-left: 5px;
+	padding-right: 5px;
 }
 
 .main-menu ul .strong a{ 
@@ -177,7 +181,6 @@
 	text-decoration: none;
 	color: #09c;
 	font-size: 12px;
-	font-family: Arial, sans-serif;
 	padding: 5px 10px;	
 	border-right: solid 1px gray;
 }
@@ -207,7 +210,6 @@
 	color: black;
 	font-size: 16px;
 	font-weight: bold;
-	font-family: Arial, sans-serif;
 	text-decoration: none;
 	text-align: center;
 	display: block;
@@ -219,6 +221,179 @@
 .sections ul li:hover a{ color: #ff5c1a; }
 
 /* header */
+
+/*.wrapper-container*/
+
+.wrapper-container .main{
+	width: 66.6%;
+	float: left;
+}
+
+.wrapper-container .main .column-small{
+	width: 35%;
+	float: left;
+}
+
+.wrapper-container .main .column-small .section-title{
+	background-color: rgb(234, 233, 224);
+}
+
+.wrapper-container .main .column-small .section-title h2{
+	font-size: 14px;
+	color: #333;
+	background-color: #fbfbfb;
+	display: block;
+	text-align: center;
+}
+
+.wrapper-container .main .column-small{
+	padding: 10px 5px; 
+}
+
+.wrapper-container .main article h3 a{
+	color: #ff5c1a;
+	font-size: 11px; 
+	text-decoration: none;
+}
+
+.wrapper-container .main article h2 a{
+	text-decoration: none;
+	color: black;
+}
+
+.wrapper-container .main article span{
+	color: rgb(153, 153, 153);
+	padding-top: 10px;
+	padding-bottom: 10px; 
+}
+
+
+.wrapper-container .main .column-large{
+	width: 65%;
+	float: right;
+	padding: 10px 5px; 
+}
+
+.wrapper-container .main .column-large article{
+	border-bottom: solid 1px gray; 
+}
+
+.wrapper-container .main .column-large article .author{
+	color: #09c;
+	text-decoration: none;
+}
+
+.wrapper-container .main .column-large .section-title{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.wrapper-container .main .section-title h2{
+	font-size: 12px;
+	font-weight: bold;
+	color: #ff5c1a;
+	background-color: #fbfbfb;
+	text-align: center;
+}
+
+.wrapper-container .main .column-large figure{
+	width: 365px;
+	height: 60px;
+}
+
+.wrapper-container .main .column-large figure  img{
+	display: block;
+	width: 100%;
+}
+
+.wrapper-container .main .column-large .section-title h2{
+	color: #333;
+}
+
+.wrapper-container .main .column-large article{
+	padding-bottom: 10px;
+}
+
+.wrapper-container .main .column-large article a{
+	width: 390px;
+	height: 223px;
+}
+
+.wrapper-container .main .column-large article a img{
+	display: block;
+	width: 100%
+}
+
+.wrapper-container .main .column-large article h3 a{
+	font-weight: normal;
+}
+
+.wrapper-container .main .column-large article h2 a{
+	font-size: 18px;
+	font-family: Georgia, serif;
+	color: #333;
+	padding-top: 5px;
+	padding-bottom: 5px; 
+}
+
+.wrapper-container aside{
+	width: 33.3%;
+	float: right;
+	padding: 10px 12px; 
+}
+
+.wrapper-container aside .google-img{
+	margin-bottom: 20px; 
+}
+
+.wrapper-container aside .google-img  a img{
+	display: block;
+	width: 100%;
+}
+
+.wrapper-container aside .block{
+	border-top: solid 3px rgb(201, 197, 197);
+	border-bottom: solid 3px rgb(201, 197, 197);
+	margin-bottom: 20px;
+}
+
+.wrapper-container aside .block ul li a{
+color: rgb(51, 51, 51);
+}
+
+.wrapper-container aside .section-title h2{
+	font-size: 14px;
+	color: #333;
+	background-color: #fbfbfb;
+	text-align: center;
+}
+
+.wrapper-container aside ul{
+	list-style: none;
+	border-bottom: solid 1px gray;
+}
+
+.wrapper-container aside ul li{
+	text-decoration: none;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+.wrapper-container aside ul li a{
+	color: rgb(0, 153, 204);
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.wrapper-container aside ul li a .icon-arrow-right{
+	color: #ff5c1a;
+	font-weight: bold; 
+}
+
+/*.wrapper-container*/
+
 
 /* footer*/
 
