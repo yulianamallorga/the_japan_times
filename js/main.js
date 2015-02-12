@@ -5,3 +5,8 @@ $('.back-to-top').on('click',function(){
 $('#menu').on('click', function(){
 	$('body').toggleClass('menu-opened');
 });
+
+$('#slider-news').flexslider({
+	directionNav: false,
+	animation: 'slide'
+});

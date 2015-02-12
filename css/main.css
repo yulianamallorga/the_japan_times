@@ -336,11 +336,23 @@ body{
 	padding-bottom: 10px; 
 }
 
-
 .wrapper-container .main .column-large{
 	width: 65%;
 	float: right;
 	padding: 10px 5px; 
+}
+
+.wrapper-container .main .column-large #slider-news{
+	position: relative;
+}
+
+.wrapper-container .main .column-large #slider-news .flex-control-nav {
+	bottom: auto !important;
+	top: 15px;
+}
+
+.wrapper-container .main .column-large #slider-news .flex-control-nav li a:not(.flex-active){
+	background: #fff;
 }
 
 .wrapper-container .main .column-large article{
@@ -492,7 +504,6 @@ footer .submenu-footer ul li a{
 }
 
 footer .submenu-footer ul li a:hover{ color: #ff5c1a; }
-
 
 footer .toolbar{
 	overflow: hidden;
